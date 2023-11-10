@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Product 1 detail page | Project Opdracht</title>
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/animation.css" />
+    <link rel="icon" type="image/x-icon" href="./Assets/icons/map-marker.png">
+    <script src="./JavaScript/script.js" defer></script>
+    <script src="https://cdn.jsdelivr.net/gh/studio-freight/lenis@1.0.27/bundled/lenis.min.js"></script>
+  </head>
+  <body>
+    <div class="sales-banner slide-bottom">
+      <a href="./shop.html">Promo code WEBTECH30 -30%</a>
+    </div>
+    <header class="slide-bottom">
+      <nav class="test1">
+        <a href="./index.html">home</a>
+        <a href="./shop.html">shop</a>
+        <a href="./contact.html">contact</a>
+      </nav>
+      <a class="logo-container" href="./index.html">
+        <img src="./Assets/icons/logo-final.png" class="logo" alt="logo" />
+      </a>
+      <nav class="test2">
+        <!--      Met JavaScript aan en uit-->
+        <!--      <input type="text" class="search" id="search" placeholder="Search">-->
+        <a href=""><img src="./Assets/icons/search.png" alt="" /></a>
+        <a href=""><img src="./Assets/icons/account.png" alt="" /></a>
+        <a href=""><img src="./Assets/icons/cart.png" alt="" /></a>
+      </nav>
+      <nav class="mobile">
+        <a href="#"
+          ><img
+            src="./Assets/icons/2976215.png"
+            alt="hamburger-menu"
+            id="hamburger"
+        /></a>
+      </nav>
+    </header>
+    <header class="mobile-menu" id="mobile-menu">
+      <nav>
+        <section class="mobile-item" onclick="location.href='./index.html'">
+          <a href="./index.html" class="active">home</a>
+        </section>
+
+        <section class="mobile-item" onclick="location.href='./shop.html'">
+          <a href="./shop.html">shop</a>
+        </section>
+
+        <section class="mobile-item" onclick="location.href='./contact.html'">
+          <a href="./contact.html">contact</a>
+        </section>
+      </nav>
+    </header>
+    <main class="product-details">
+      <section class="detail-container">
+        <article class="preview">
+        </article>
+        <article class="preview2">
+        </article>
+        <article class="mainpreview">
+        </article>
+        <article class="details-infos">
+          <h2>Cream Blazer</h2>
+          <fieldset>
+            <legend>Size</legend>
+          <form action="size" class="size-selector">
+            <input type="radio" id="S" name="size" value="S"/>
+            <label for="S">S</label>
+            <input type="radio" id="M" name="size" value="M" />
+            <label for="M">M</label>
+            <input type="radio" id="L" name="size" value="L" />
+            <label for="L">L</label>
+          </form>
+          </fieldset>
+          <button class="add-cart">Add to cart</button>
+        </article>
+      </section>
+    </main>
+    <section class="review-container">
+      <section class="review">
+        <article class="review-top-area">
+          <div class="profile"></div>
+          <h2>Leave a review !</h2>
+        </article>
+        <article class="review-bottom-area">
+          <img src="./Assets/icons/icons8-star-48.png" alt="" />
+          <img src="./Assets/icons/icons8-star-48.png" alt="" />
+          <img src="./Assets/icons/icons8-star-48.png" alt="" />
+          <img src="./Assets/icons/icons8-star-48.png" alt="" />
+
+          <form action="review">
+            <input type="text" name="" id="" />
+            <input type="submit" value="" />
+          </form>
+        </article>
+      </section>
+    </section>
+    <div class="collection-title"><h2>You may also like</h2></div>
+    <section class="collection">
+      <article class="product">
+        <a href="./product_detail.html"><div class="product-image4"></div></a>
+        <h4>Flutter Sleeve Dress</h4>
+        <p>€29.99</p>
+        <button class="btn-collection">Add to cart</button>
+      </article>
+      <article class="product">
+        <a href="./product_detail.html"><div class="product-image5"></div></a>
+        <h4>Polka Dot Surplice Dress</h4>
+        <p>€29.99</p>
+        <button class="btn-collection">Add to cart</button>
+      </article>
+      <article class="product">
+        <a href="./product_detail.html"><div class="product-image6"></div></a>
+        <h4>Paisley Flounce Sleeve Dress</h4>
+        <p>€29.99</p>
+        <button class="btn-collection">Add to cart</button>
+      </article>
+    </section>
+    <footer>
+      <section class="footer-1">
+        <p>©ontempo | 2023</p>
+      </section>
+      <section class="footer-2">
+        <img src="./Assets/icons/github.png" alt="">
+        <img src="./Assets/icons/behance.png" alt="">
+        <img src="./Assets/icons/mail.png" alt="">
+      </section>
+    </footer>
+  </body>
+</html>

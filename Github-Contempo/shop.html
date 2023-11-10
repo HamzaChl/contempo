@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shop page | Project Opdracht</title>
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/animation.css" />
+    <link rel="icon" type="image/x-icon" href="./Assets/icons/map-marker.png">
+    <script src="./JavaScript/script.js" defer></script>
+    <script src="https://cdn.jsdelivr.net/gh/studio-freight/lenis@1.0.27/bundled/lenis.min.js"></script>
+  </head>
+  <body>
+    <div class="sales-banner slide-bottom">
+      <a href="./shop.html">Promo code WEBTECH30 -30%</a>
+    </div>
+    <header class="slide-bottom">
+      <nav class="test1">
+        <a href="./index.html">home</a>
+        <a href="./shop.html" class="active">shop</a>
+        <a href="./contact.html">contact</a>
+      </nav>
+      <a class="logo-container" href="./index.html">
+        <img src="./Assets/icons/logo-final.png" class="logo" alt="logo" />
+      </a>
+      <nav class="test2">
+        <!--      Met JavaScript aan en uit-->
+        <!--      <input type="text" class="search" id="search" placeholder="Search">-->
+        <a href=""><img src="./Assets/icons/search.png" alt="" /></a>
+        <a href=""><img src="./Assets/icons/account.png" alt="" /></a>
+        <a href=""><img src="./Assets/icons/cart.png" alt="" /></a>
+      </nav>
+      <nav class="mobile">
+        <a href="#"
+          ><img
+            src="./Assets/icons/2976215.png"
+            alt="hamburger-menu"
+            id="hamburger"
+        /></a>
+      </nav>
+    </header>
+
+    <header class="mobile-menu" id="mobile-menu">
+      <nav>
+        <section class="mobile-item" onclick="location.href='./index.html'">
+          <a href="./index.html" class="active">home</a>
+        </section>
+
+        <section class="mobile-item" onclick="location.href='./shop.html'">
+          <a href="./shop.html">shop</a>
+        </section>
+
+        <section class="mobile-item" onclick="location.href='./contact.html'">
+          <a href="./contact.html">contact</a>
+        </section>
+      </nav>
+    </header>
+    <main>
+      <section class="page-title"></section>
+      <div class="title"><h2>All Products</h2></div>
+      <select id="sort" name="size">
+        <option value="">--Sort articles--</option>
+        <option value="low-high">Sort price - low to high</option>
+        <option value="high-low">Sort price - high to low</option>
+        <option value="best-seller">Best seller</option>
+        <option value="new">Newest articles</option>
+      </select>
+      <section class="collection2">
+        <article class="product">
+          <a
+            href="./product_detail.html"
+            aria-label="Teddy Coat"
+            ><div class="product-image1"></div
+          ></a>
+          <h4>Caramel Teddy Coat</h4>
+          <p>Lorem ipsum Dolor</p>
+          <p>€34.99</p>
+          <button class="btn-collection">Add to cart</button>
+        </article>
+        <article class="product">
+          <a href="./product_detail.html" aria-label="Collared Neck Shirt Dress"
+            ><div class="product-image2"></div
+          ></a>
+          <h4>Taupe Plaid</h4>
+          <p>Lorem ipsum Dolor</p>
+          <p>€39.99</p>
+          <button class="btn-collection">Add to cart</button>
+        </article>
+        <article class="product">
+          <a href="./product_detail.html" aria-label="Plaid Collared Neck Button Down Coat"
+            ><div class="product-image3"></div
+          ></a>
+          <h4>Collared Taupe Coat</h4>
+          <p>Lorem ipsum Dolor</p>
+          <p>€39.99</p>
+          <button class="btn-collection">Add to cart</button>
+        </article>
+        <article class="product">
+          <a href="./product_detail.html" aria-label="Flutter Sleeve Dress"
+            ><div class="product-image4"></div
+          ></a>
+          <h4>Cream Blazer</h4>
+          <p>Lorem ipsum Dolor</p>
+          <p>€29.99</p>
+          <button class="btn-collection">Add to cart</button>
+        </article>
+        <article class="product">
+          <a href="./product_detail.html" aria-label="Zip Up Collared Neck Long Sleeve Winter Coat"
+            ><div class="product-image5"></div
+          ></a>
+          <h4>Brick red Coat</h4>
+          <p>Lorem ipsum Dolor</p>
+          <p>39.99</p>
+          <button class="btn-collection">Add to cart</button>
+        </article>
+        <article class="product">
+          <a
+            href="./product_detail.html"
+            aria-label="Paisley Flounce Sleeve Dress"
+            ><div class="product-image6"></div
+          ></a>
+          <h4>Camel coat</h4>
+          <p>Lorem ipsum Dolor</p>
+          <p>€39.99</p>
+          <button class="btn-collection">Add to cart</button>
+        </article>
+        <article class="product">
+          <a href="./product_detail.html" aria-label="Drop Shoulder Button Down Collared Coat"
+            ><div class="product-image7"></div
+          ></a>
+          <h4>Taupe coat</h4>
+          <p>Lorem ipsum Dolor</p>
+          <p>€999.99</p>
+          <button class="btn-collection">Add to cart</button>
+        </article>
+        <article class="product">
+          <a href="./product_detail.html" aria-label="Button-Down Neck Dress"
+            ><div class="product-image8"></div
+          ></a>
+          <h4>Longline Coat</h4>
+          <p>Lorem ipsum Dolor</p>
+          <p>€999.99</p>
+          <button class="btn-collection">Add to cart</button>
+        </article>
+        <article class="product">
+          <a
+            href="./product_detail.html"
+            aria-label="Floral Spaghetti Strap Dress"
+            ><div class="product-image9"></div
+          ></a>
+          <h4>Lapel Collar Coat</h4>
+          <p>Lorem ipsum Dolor</p>
+          <p>€59.99</p>
+          <button class="btn-collection">Add to cart</button>
+        </article>
+        <article class="product">
+          <a
+            href="./product_detail.html"
+            aria-label="Paisley Flounce Sleeve Dress"
+            ><div class="product-image10"></div
+          ></a>
+          <h4>Ivory coat</h4>
+          <p>Lorem ipsum Dolor</p>
+          <p>€999.99</p>
+          <button class="btn-collection">Add to cart</button>
+        </article>
+        <article class="product">
+          <a href="./product_detail.html" aria-label="Square Neck Smocked Dress"
+            ><div class="product-image11"></div
+          ></a>
+          <h4>Houndstooth Jacket</h4>
+          <p>Lorem ipsum Dolor</p>
+          <p>€69.99</p>
+          <button class="btn-collection">Add to cart</button>
+        </article>
+        <article class="product">
+          <a href="./product_detail.html" aria-label="One Shoulder Dress"
+            ><div class="product-image12"></div
+          ></a>
+          <h4>Baseball Green Jacket</h4>
+          <p>Lorem ipsum Dolor</p>
+          <p>€29.99</p>
+          <button class="btn-collection">Add to cart</button>
+        </article>
+      </section>
+      <section class="bottom-section">
+        <article class="bottom-img"></article>
+      </section>
+    </main>
+    <footer>
+      <section class="footer-1">
+        <p>©ontempo | 2023</p>
+      </section>
+      <section class="footer-2">
+        <img src="./Assets/icons/github.png" alt="">
+        <img src="./Assets/icons/behance.png" alt="">
+        <img src="./Assets/icons/mail.png" alt="">
+
+      </section>
+    </footer>
+  </body>
+</html>
